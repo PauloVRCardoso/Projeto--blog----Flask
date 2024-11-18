@@ -86,7 +86,7 @@ def salvar_imagem(imagem):
   imagem_reduzida = Image.open(imagem)
   imagem_reduzida.thumbnail(tamanho)
   imagem_reduzida.save(caminho_completo)
-  return 
+  return nome_arquivo
 
 def atualizar_cursos(form_editar):
   lista_cursos = []
